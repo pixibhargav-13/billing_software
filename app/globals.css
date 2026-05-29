@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f7fbfa;
+  --bg-soft: #ecfdf6;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #0b1f2a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-brand-700;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-200 bg-white px-6 py-3 text-sm font-semibold text-brand-700 transition hover:border-brand-400 hover:text-brand-800;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-700;
+  }
+  .h-display {
+    @apply font-display text-4xl font-bold tracking-tight text-ink-900 sm:text-5xl lg:text-6xl;
+  }
+  .h-section {
+    @apply font-display text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl;
+  }
+  .card {
+    @apply rounded-2xl border border-slate-200/70 bg-white p-6 shadow-card;
+  }
+}
+
+.dot-bg {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(15, 118, 110, 0.12) 1px,
+    transparent 0
+  );
+  background-size: 18px 18px;
+}

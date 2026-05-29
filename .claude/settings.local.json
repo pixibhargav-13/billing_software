@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"D:/billing_software\" 2>&1 | head -50; echo \"---\"; ls \"C:/Users/bharg/Downloads/Medical_Billing_Competitor_Analysis.docx\")"
+    ]
+  }
+}
