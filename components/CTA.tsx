@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CTA({
   title = "Ready to clean up your revenue cycle?",
-  body = "Talk to an Infividhya specialist and see what's possible in 30 days.",
+  body = "Talk to an Acuentra specialist and see what's possible in 30 days.",
   primary = { href: "/contact", label: "Get a free assessment" },
   secondary = { href: "/medical-biller", label: "Explore services" },
 }: {

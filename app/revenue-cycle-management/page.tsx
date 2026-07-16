@@ -19,7 +19,7 @@ import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
 
 export const metadata = {
-  title: "Revenue Cycle Management — Infividhya",
+  title: "Revenue Cycle Management — Acuentra",
   description:
     "Full-cycle RCM — eligibility verification, coding, claims, denial management, AR recovery, and reporting.",
 };
@@ -48,7 +48,7 @@ export default function RCMPage() {
             </h2>
             <p className="mt-5 text-ink-500">
               Most practices lose 5–10% of potential revenue to denials,
-              underpayments, and aging AR. Infividhya&apos;s RCM team identifies
+              underpayments, and aging AR. Acuentra&apos;s RCM team identifies
               every leakage point in your revenue flow, plugs them
               systematically, and delivers consistent cash flow improvements
               month after month — backed by transparent reporting you can act on.
@@ -75,7 +75,7 @@ export default function RCMPage() {
               alt="RCM analytics"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function RCMPage() {
         <div className="mb-10 max-w-2xl">
           <span className="eyebrow">Outcomes you can expect</span>
           <h2 className="h-section mt-4">
-            Numbers that move when Infividhya runs your cycle.
+            Numbers that move when Acuentra runs your cycle.
           </h2>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

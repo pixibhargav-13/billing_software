@@ -1,12 +1,12 @@
-import { Mail, Phone, MapPin, Clock, MessageSquare } from "lucide-react";
+import { Mail, MapPin, Clock, MessageSquare } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact Us — Infividhya",
+  title: "Contact Us — Acuentra",
   description:
-    "Talk to an Infividhya specialist about medical billing, RCM, or virtual healthcare staffing.",
+    "Talk to an Acuentra specialist about medical billing, RCM, or virtual healthcare staffing.",
 };
 
 export default function ContactPage() {
@@ -37,23 +37,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-display text-base font-bold text-ink-900">Email</h3>
                   <p className="mt-1 text-sm text-ink-500">General enquiries</p>
-                  <a href="mailto:hello@infividhya.com" className="mt-2 inline-block text-sm font-semibold text-brand-700 hover:text-brand-800">
-                    hello@infividhya.com
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="flex items-start gap-4">
-                <span className="grid h-11 w-11 place-items-center rounded-xl bg-brand-50 text-brand-700 ring-1 ring-brand-100">
-                  <Phone className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-bold text-ink-900">Phone</h3>
-                  <p className="mt-1 text-sm text-ink-500">Mon–Fri · 9am–7pm ET</p>
-                  <a href="tel:+15550102024" className="mt-2 inline-block text-sm font-semibold text-brand-700 hover:text-brand-800">
-                    +1 (555) 010-2024
+                  <a href="mailto:hello@acuentra.com" className="mt-2 inline-block text-sm font-semibold text-brand-700 hover:text-brand-800">
+                    hello@acuentra.com
                   </a>
                 </div>
               </div>

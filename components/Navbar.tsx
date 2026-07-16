@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, Stethoscope } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const links = [
   { href: "/", label: "Home" },
@@ -18,14 +19,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/80 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-600 text-white shadow-soft">
-            <Stethoscope className="h-5 w-5" />
-          </span>
-          <span className="font-display text-lg font-extrabold tracking-tight text-ink-900">
-            Infi<span className="text-brand-600">vidhya</span>
-          </span>
-        </Link>
+        <Logo />
 
         <nav className="hidden items-center gap-1 md:flex">
           {links.map((l) => (

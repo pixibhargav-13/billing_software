@@ -15,23 +15,23 @@ import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
 
 export const metadata = {
-  title: "About Us — Infividhya",
+  title: "About Us — Acuentra",
   description:
-    "Infividhya is a remote-first healthcare operations partner — medical billing, RCM, and virtual staffing for modern practices.",
+    "Acuentra is a remote-first healthcare operations partner — medical billing, RCM, and virtual staffing for modern practices.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Infividhya"
+        eyebrow="About Acuentra"
         title={
           <>
             People-first healthcare operations,{" "}
             <span className="text-brand-600">delivered remotely.</span>
           </>
         }
-        subtitle="We started Infividhya to give independent practices the same operational backbone that large health systems take for granted — accurate billing, clean revenue cycles, and reliable staffing — without the bloat of legacy vendors."
+        subtitle="We started Acuentra to give independent practices the same operational backbone that large health systems take for granted — accurate billing, clean revenue cycles, and reliable staffing — without the bloat of legacy vendors."
         image="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80"
       />
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
               Born at the intersection of healthcare and technology.
             </h2>
             <p className="mt-5 text-ink-500">
-              Infividhya was founded by operators who watched too many great
+              Acuentra was founded by operators who watched too many great
               practices lose revenue to claims that never should have been
               denied, prior authorizations that never got followed up, and AR
               that aged into oblivion. We knew the problem wasn&apos;t the
@@ -64,7 +64,7 @@ export default function AboutPage() {
               alt="Team at work"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
         </div>
@@ -118,10 +118,10 @@ export default function AboutPage() {
         </div>
         <FeatureGrid
           items={[
-            { icon: ShieldCheck, title: "Compliance-first", body: "HIPAA, payer rules, and CMS guidelines are non-negotiable — by design, not by exception." },
+            { icon: Globe, title: "Remote-first", body: "Top talent isn't bound by geography. We bring the best people to your team, wherever they are." },
             { icon: Users, title: "Operate as one team", body: "We embed into your workflows, your tools, and your culture — invisible but indispensable." },
             { icon: Award, title: "Pursue accuracy", body: "Clean claims, clean codes, clean reports. Quality is everyone's job, every day." },
-            { icon: Globe, title: "Remote-first", body: "Top talent isn't bound by geography. We bring the best people to your team, wherever they are." },
+            { icon: ShieldCheck, title: "Compliance-first", body: "HIPAA, payer rules, and CMS guidelines are non-negotiable — by design, not by exception." },
             { icon: HandHeart, title: "Patient-respect", body: "Behind every claim is a patient. We handle records and conversations with care and dignity." },
             { icon: Sparkles, title: "Continuously improve", body: "Every denial is a lesson. Every report drives the next improvement cycle." },
           ]}
@@ -137,32 +137,20 @@ export default function AboutPage() {
               alt="Certified specialists"
               width={1100}
               height={900}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
           <div>
             <span className="eyebrow">Our people</span>
             <h2 className="h-section mt-4">
-              Certified specialists. Healthcare obsessives. Real partners.
+              Specialists. Healthcare obsessives. Real partners.
             </h2>
             <p className="mt-5 text-ink-500">
-              Every Infividhya account is staffed by trained medical billers,
-              certified coders (CPC, CCS, CRC), RCM analysts, and virtual
+              Every Acuentra account is staffed by trained medical billers,
+              coders, RCM analysts, and virtual
               healthcare assistants. We invest in continuous education on payer
               updates, ICD/CPT changes, and compliance — so you never have to.
             </p>
-            <div className="mt-6 grid max-w-md grid-cols-3 gap-4">
-              {[
-                ["120+", "Specialists"],
-                ["12+", "Specialties"],
-                ["20+", "EHRs supported"],
-              ].map(([n, l]) => (
-                <div key={l} className="rounded-2xl border border-slate-200 bg-white p-4 shadow-card">
-                  <div className="font-display text-2xl font-extrabold text-brand-700">{n}</div>
-                  <div className="mt-1 text-xs font-medium text-ink-500">{l}</div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </Section>

@@ -14,7 +14,8 @@ export default function PageHero({
 }) {
   return (
     <section className="relative overflow-hidden border-b border-slate-200 bg-gradient-to-b from-brand-50/60 to-white">
-      <div className="dot-bg absolute inset-0 opacity-60" />
+      <div className="hero-aura absolute inset-0" />
+      <div className="dot-bg absolute inset-0 opacity-50" />
       <div className="container-x relative grid items-center gap-10 py-16 sm:py-20 lg:grid-cols-2 lg:py-24">
         <div>
           <span className="eyebrow">{eyebrow}</span>
@@ -24,14 +25,14 @@ export default function PageHero({
           </p>
         </div>
         <div className="relative">
-          <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-100/60 blur-2xl" />
-          <div className="overflow-hidden rounded-3xl border border-white shadow-card">
+          <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-brand-100/60 blur-2xl" />
+          <div className="media-frame">
             <Image
               src={image}
               alt=""
               width={900}
               height={700}
-              className="h-[360px] w-full object-cover sm:h-[420px]"
+              className="img-fade h-[360px] w-full object-cover sm:h-[420px]"
             />
           </div>
         </div>

@@ -29,12 +29,7 @@ export default function ContactForm() {
           Thanks — we&apos;ve got it.
         </h3>
         <p className="text-sm text-ink-500">
-          A specialist from Infividhya will reach out within one business day.
-          If it&apos;s urgent, feel free to call us at{" "}
-          <a className="font-semibold text-brand-700" href="tel:+15550102024">
-            +1 (555) 010-2024
-          </a>
-          .
+          A specialist from Acuentra will reach out within one business day.
         </p>
       </div>
     );

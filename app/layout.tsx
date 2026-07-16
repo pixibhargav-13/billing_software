@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Infividhya — Medical Billing & Virtual Healthcare Staffing",
+  title: "Acuentra — Medical Billing & Virtual Healthcare Staffing",
   description:
-    "Infividhya delivers end-to-end medical billing, revenue cycle management, and virtual healthcare staffing for modern practices.",
+    "Acuentra delivers end-to-end medical billing, revenue cycle management, and virtual healthcare staffing for modern practices.",
 };
 
 export default function RootLayout({

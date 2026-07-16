@@ -17,7 +17,7 @@ import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
 
 export const metadata = {
-  title: "Medical Biller — Infividhya",
+  title: "Medical Biller — Acuentra",
   description:
     "End-to-end medical billing services — charge entry, claims submission, AR follow-up, and denial management.",
 };
@@ -33,7 +33,7 @@ export default function MedicalBillerPage() {
             <span className="text-brand-600">pays on the first pass.</span>
           </>
         }
-        subtitle="Infividhya's remote medical billers plug into your existing team to manage the entire billing process — from the moment a patient visit is documented to the moment payment lands in your account."
+        subtitle="Acuentra's remote medical billers plug into your existing team to manage the entire billing process — from the moment a patient visit is documented to the moment payment lands in your account."
         image="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1400&q=80"
       />
 
@@ -73,7 +73,7 @@ export default function MedicalBillerPage() {
               alt="Medical billing dashboard"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function MedicalBillerPage() {
         <div className="mb-10 max-w-2xl">
           <span className="eyebrow">Our process</span>
           <h2 className="h-section mt-4">
-            How a typical claim moves through Infividhya.
+            How a typical claim moves through Acuentra.
           </h2>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -139,7 +139,7 @@ export default function MedicalBillerPage() {
               alt="Compliance"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
           <div>
@@ -148,7 +148,7 @@ export default function MedicalBillerPage() {
               Compliant by default. Audit-ready always.
             </h2>
             <p className="mt-5 text-ink-500">
-              Every Infividhya biller works inside HIPAA-aligned environments
+              Every Acuentra biller works inside HIPAA-aligned environments
               with controlled access, encrypted data handling, and continuous
               quality auditing. Our internal QA team samples claims weekly to
               ensure error rates stay well below industry benchmarks.

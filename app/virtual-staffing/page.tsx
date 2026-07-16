@@ -17,7 +17,7 @@ import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
 
 export const metadata = {
-  title: "Virtual Healthcare Staffing — Infividhya",
+  title: "Virtual Healthcare Staffing — Acuentra",
   description:
     "Dedicated remote healthcare assistants, scribes, receptionists, and records specialists — embedded into your practice.",
 };
@@ -33,7 +33,7 @@ export default function VirtualStaffingPage() {
             <span className="text-brand-600">Without expanding your office.</span>
           </>
         }
-        subtitle="Infividhya connects healthcare providers with personalized remote staff — virtual assistants, scribes, receptionists, prescription coordinators and records specialists — embedded into your daily workflows."
+        subtitle="Acuentra connects healthcare providers with personalized remote staff — virtual assistants, scribes, receptionists, prescription coordinators and records specialists — embedded into your daily workflows."
         image="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1400&q=80"
       />
 
@@ -46,7 +46,7 @@ export default function VirtualStaffingPage() {
             </h2>
             <p className="mt-5 text-ink-500">
               Hiring in-house front-desk and administrative staff is slow,
-              expensive, and hard to scale. Infividhya gives you trained
+              expensive, and hard to scale. Acuentra gives you trained
               healthcare professionals who work as a seamless extension of your
               practice — at a fraction of the cost of local hires, with none of
               the HR headaches.
@@ -73,7 +73,7 @@ export default function VirtualStaffingPage() {
               alt="Virtual healthcare assistant"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function VirtualStaffingPage() {
               alt="Onboarding"
               width={1100}
               height={800}
-              className="rounded-3xl border border-white object-cover shadow-card"
+              className="img-fade rounded-3xl border border-white object-cover shadow-card"
             />
           </div>
           <div>
