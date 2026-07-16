@@ -15,6 +15,9 @@ import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
+import staffHeroImg from "@/app/assets/images.jpg";
+import staffAssistantImg from "@/app/assets/premium_photo-1681996543579-b24cd01d4516.avif";
+import staffOnboardingImg from "@/app/assets/Hero/240_F_1785154202_HTbut8dDkTFikRrtxbLqJHhCbtUfFrs5.jpg";
 
 export const metadata = {
   title: "Virtual Healthcare Staffing — Acuentra",
@@ -34,7 +37,7 @@ export default function VirtualStaffingPage() {
           </>
         }
         subtitle="Acuentra connects healthcare providers with personalized remote staff — virtual assistants, scribes, receptionists, prescription coordinators and records specialists — embedded into your daily workflows."
-        image="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1400&q=80"
+        image={staffHeroImg}
       />
 
       <Section>
@@ -69,7 +72,7 @@ export default function VirtualStaffingPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-50 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1100&q=80"
+              src={staffAssistantImg}
               alt="Virtual healthcare assistant"
               width={1100}
               height={800}
@@ -103,7 +106,7 @@ export default function VirtualStaffingPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-accent-500/10 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1100&q=80"
+              src={staffOnboardingImg}
               alt="Onboarding"
               width={1100}
               height={800}

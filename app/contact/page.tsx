@@ -2,6 +2,7 @@ import { Mail, MapPin, Clock, MessageSquare } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import ContactForm from "@/components/ContactForm";
+import contactHeroImg from "@/app/assets/medical-invoice-document-form-patient-concept.jpg";
 
 export const metadata = {
   title: "Contact Us — Acuentra",
@@ -21,7 +22,7 @@ export default function ContactPage() {
           </>
         }
         subtitle="Tell us a little about your practice. A real human from our team will respond within one business day — usually faster."
-        image="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1400&q=80"
+        image={contactHeroImg}
       />
 
       <Section>
@@ -37,8 +38,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-display text-base font-bold text-ink-900">Email</h3>
                   <p className="mt-1 text-sm text-ink-500">General enquiries</p>
-                  <a href="mailto:hello@acuentra.com" className="mt-2 inline-block text-sm font-semibold text-brand-700 hover:text-brand-800">
-                    hello@acuentra.com
+                  <a href="mailto:contact@acuentra.com" className="mt-2 inline-block text-sm font-semibold text-brand-700 hover:text-brand-800">
+                    contact@acuentra.com
                   </a>
                 </div>
               </div>

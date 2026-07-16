@@ -17,6 +17,8 @@ import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
+import rcmHeroImg from "@/app/assets/240_F_2033623215_FrkxQkQrV1oJkIQv1C8W76LVwjXdh4mY.jpg";
+import rcmAnalyticsImg from "@/app/assets/240_F_2006099263_IzS0Jp9P0oJLyYZ3heQ7QNifglMS4bQr.jpg";
 
 export const metadata = {
   title: "Revenue Cycle Management — Acuentra",
@@ -36,7 +38,7 @@ export default function RCMPage() {
           </>
         }
         subtitle="A fully managed approach to your practice's financial health — from patient registration and eligibility checks through final payment reconciliation. Adaptable to any specialty, scalable to any size."
-        image="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=1400&q=80"
+        image={rcmHeroImg}
       />
 
       <Section>
@@ -71,7 +73,7 @@ export default function RCMPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-50 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1100&q=80"
+              src={rcmAnalyticsImg}
               alt="RCM analytics"
               width={1100}
               height={800}

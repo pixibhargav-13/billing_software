@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 
 export default function PageHero({
@@ -10,7 +10,7 @@ export default function PageHero({
   eyebrow: string;
   title: ReactNode;
   subtitle: string;
-  image: string;
+  image: string | StaticImageData;
 }) {
   return (
     <section className="relative overflow-hidden border-b border-slate-200 bg-gradient-to-b from-brand-50/60 to-white">

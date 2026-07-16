@@ -34,7 +34,7 @@ export default function Footer() {
         <div>
           <h4 className="font-display text-sm font-bold text-ink-900">Reach us</h4>
           <ul className="mt-4 space-y-3 text-sm text-ink-500">
-            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-brand-600" /> hello@acuentra.com</li>
+            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-brand-600" /> contact@acuentra.com</li>
             <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-brand-600" /> Remote-first · USA & India</li>
           </ul>
         </div>

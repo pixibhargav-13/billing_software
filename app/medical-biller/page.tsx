@@ -15,6 +15,9 @@ import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
+import billerHeroImg from "@/app/assets/gettyimages-2208188400-612x612.jpg";
+import billerDashboardImg from "@/app/assets/Hero/240_F_1914538617_UhsQEh9LbnecnQt6OxhhWRe8qag0za5Y.jpg";
+import billerComplianceImg from "@/app/assets/Hero/240_F_1809787147_DwgEWkufy0FfW6C2SoiIsHw5iC6d5lJp.jpg";
 
 export const metadata = {
   title: "Medical Biller — Acuentra",
@@ -34,7 +37,7 @@ export default function MedicalBillerPage() {
           </>
         }
         subtitle="Acuentra's remote medical billers plug into your existing team to manage the entire billing process — from the moment a patient visit is documented to the moment payment lands in your account."
-        image="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1400&q=80"
+        image={billerHeroImg}
       />
 
       <Section>
@@ -69,7 +72,7 @@ export default function MedicalBillerPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-50 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1100&q=80"
+              src={billerDashboardImg}
               alt="Medical billing dashboard"
               width={1100}
               height={800}
@@ -135,7 +138,7 @@ export default function MedicalBillerPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-accent-500/10 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=80"
+              src={billerComplianceImg}
               alt="Compliance"
               width={1100}
               height={800}

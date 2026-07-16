@@ -13,6 +13,9 @@ import PageHero from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
+import aboutHeroImg from "@/app/assets/Hero/240_F_1785154202_HTbut8dDkTFikRrtxbLqJHhCbtUfFrs5.jpg";
+import aboutTeamImg from "@/app/assets/240_F_877469380_rHZHvtIkZl5c9sxRVjsPy8dTecTz4vZp.jpg";
+import aboutSpecialistsImg from "@/app/assets/photo-1721453280350-605005546346.avif";
 
 export const metadata = {
   title: "About Us — Acuentra",
@@ -32,7 +35,7 @@ export default function AboutPage() {
           </>
         }
         subtitle="We started Acuentra to give independent practices the same operational backbone that large health systems take for granted — accurate billing, clean revenue cycles, and reliable staffing — without the bloat of legacy vendors."
-        image="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80"
+        image={aboutHeroImg}
       />
 
       <Section>
@@ -60,7 +63,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-50 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1100&q=80"
+              src={aboutTeamImg}
               alt="Team at work"
               width={1100}
               height={800}
@@ -133,7 +136,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-accent-500/10 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=1100&q=80"
+              src={aboutSpecialistsImg}
               alt="Certified specialists"
               width={1100}
               height={900}

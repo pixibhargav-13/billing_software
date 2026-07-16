@@ -1,7 +1,29 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls \"D:/billing_software\" 2>&1 | head -50; echo \"---\"; ls \"C:/Users/bharg/Downloads/Medical_Billing_Competitor_Analysis.docx\")"
+      "Bash(ls \"D:/billing_software\" 2>&1 | head -50; echo \"---\"; ls \"C:/Users/bharg/Downloads/Medical_Billing_Competitor_Analysis.docx\")",
+      "Bash(mkdir -p /tmp/img_check)",
+      "Bash(curl -s -o /tmp/img_check/a.jpg \"https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&w=600&q=60\")",
+      "Bash(curl -s -o /tmp/img_check/b.jpg \"https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0?auto=format&fit=crop&w=600&q=60\")",
+      "Bash(cygpath -w /tmp/img_check/a.jpg)",
+      "Bash(cygpath -w /tmp/img_check/b.jpg)",
+      "Bash(command -v magick)",
+      "Bash(command -v convert)",
+      "Bash(command -v ffmpeg)",
+      "Bash(where magick *)",
+      "Bash(where ffmpeg *)",
+      "Bash(python3 -c \"import PIL; print\\('PIL ok'\\)\")",
+      "Bash(node -e \"console.log\\(1\\)\")",
+      "Bash(node *)",
+      "Bash(cygpath -w /tmp/img_check2/a.jpg)",
+      "Bash(cygpath -w /tmp/img_check2/b.jpg)",
+      "Bash(mkdir -p \"/c/Users/bharg/AppData/Local/Temp/img_check2\")",
+      "Read(//c/Users/bharg/AppData/Local/Temp/img_check2/**)",
+      "Bash(npx tsc *)",
+      "Bash(cygpath -w /tmp/dev_server.log)",
+      "Bash(curl *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)"
     ]
   }
 }

@@ -16,9 +16,20 @@ import { Section } from "@/components/Section";
 import FeatureGrid from "@/components/FeatureGrid";
 import CTA from "@/components/CTA";
 import Reveal from "@/components/Reveal";
+import HeroSlideshow from "@/components/HeroSlideshow";
+import medicalBillerImg from "@/app/assets/istockphoto-1428073601-612x612.jpg";
+import virtualStaffingImg from "@/app/assets/nurse-typing-computer-keyboard-consultation.jpg";
+import rcmCardImg from "@/app/assets/240_F_2006099263_IzS0Jp9P0oJLyYZ3heQ7QNifglMS4bQr.jpg";
+import whyAcuentraImg from "@/app/assets/Hero/istockphoto-2170299538-612x612.jpg";
+import heroInvoiceImg from "@/app/assets/medical-invoice-document-form-patient-concept.jpg";
+import heroTeamImg from "@/app/assets/images.jpg";
 
-const heroImg =
-  "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=1400&q=80";
+const HERO_SLIDES = [
+  { src: virtualStaffingImg, alt: "Nurse managing patient records and scheduling on-screen" },
+  { src: heroInvoiceImg, alt: "Reviewing a medical invoice and payment on a tablet" },
+  { src: medicalBillerImg, alt: "Biller working claims with a calculator, laptop, and stethoscope nearby" },
+  { src: heroTeamImg, alt: "Clinical staff reviewing patient data together" },
+];
 
 const SPECIALTIES = [
   "Primary Care",
@@ -89,14 +100,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="absolute -inset-6 -z-10 rounded-3xl bg-brand-100/70 blur-2xl" />
             <div className="media-frame">
-              <Image
-                src={heroImg}
-                alt="Healthcare provider with laptop"
-                width={1100}
-                height={900}
-                priority
-                className="img-fade h-[440px] w-full object-cover sm:h-[520px]"
-              />
+              <HeroSlideshow slides={HERO_SLIDES} />
             </div>
           </div>
         </div>
@@ -147,7 +151,7 @@ export default function HomePage() {
               title: "Medical Biller",
               body:
                 "Accurate charge entry, payer-ready claims, and persistent follow-up — every claim, every payer, every day.",
-              img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=80",
+              img: medicalBillerImg,
             },
             {
               href: "/virtual-staffing",
@@ -155,7 +159,7 @@ export default function HomePage() {
               title: "Virtual Healthcare Staffing",
               body:
                 "Remote VAs, scribes, receptionists and records specialists — handpicked, trained, and embedded into your workflows.",
-              img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80",
+              img: virtualStaffingImg,
             },
             {
               href: "/revenue-cycle-management",
@@ -163,7 +167,7 @@ export default function HomePage() {
               title: "Revenue Cycle Management",
               body:
                 "End-to-end RCM — from eligibility to reconciliation — engineered to plug revenue leaks and accelerate cash flow.",
-              img: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80",
+              img: rcmCardImg,
             },
           ].map((s, i) => (
             <Reveal key={s.href} delay={i * 120} className="h-full">
@@ -205,8 +209,8 @@ export default function HomePage() {
           <Reveal className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-brand-50 blur-xl" />
             <Image
-              src="https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?auto=format&fit=crop&w=1100&q=80"
-              alt="Team collaborating"
+              src={whyAcuentraImg}
+              alt="Clinician reviewing revenue cycle dashboards across multiple screens"
               width={1100}
               height={900}
               className="img-fade rounded-3xl border border-white object-cover shadow-card"
